@@ -105,6 +105,15 @@ planet_data_dict_wisewave = {
 }
 ```
 
+### Hadamard matrix
+The definition of the Hadamard matrix is: a square matrix whose entries are either +1 or −1 
+and whose rows are mutually orthogonal. (From [Wikipedia](https://en.wikipedia.org/wiki/Hadamard_matrix))
+
+The reason I use this matrix is that this matrix is easy to understand. Also, because the entries of this matrix is either
+1 or -1. So it will save a lot of space when we store the matrix. We only need 2 bits to store each entry of the matrix.
+If we try to use the matrix with decimal entries, it usually needs 16 bits or 32 bits to store each entry.
+So I use Hadamard matrix in this project, the space efficiency can be improved by at least 8x.
+
 ## How to run the code
 
 ### Requirements
