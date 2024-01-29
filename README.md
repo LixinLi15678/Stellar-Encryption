@@ -1,4 +1,7 @@
-# Final Project
+# Stellar Encryption 
+
+(Final project for AST101)
+
 ## Project instructions
 In this open-ended assignment, you will create something that connects the astronomical concepts we have learned this semester to another discipline of interest to you.
 Some possibilities include the following (although please note you are not limited to these options):
